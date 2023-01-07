@@ -1,4 +1,241 @@
-.topcover{
-    background-image: url(banner/banner2.png);
-    background-repeat: no-repeat;
-}
+ .header-1 {
+     display: flex;
+     justify-content: end;
+     position: relative;
+     align-items: center;
+ }
+
+ .content {
+     background-image: url(banner/banner1.png);
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     position: relative;
+     width: 1600px;
+     height: 800px;
+     text-align: right;
+
+ }
+
+ .inner-content {
+     width: 500px;
+     padding: 40px;
+ }
+
+ .button-primary {
+     height: 70px;
+     color: black;
+     font-size: 20px;
+     border: 0px;
+     background-color: orangered;
+     border-radius: 5px;
+     padding: 18px 35px;
+ }
+
+ /* styles header */
+ main {
+     display: flex;
+     justify-content: space-between;
+
+
+ }
+
+ /* banner */
+ .section-banner-container {
+     margin-top: 130px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     align-items: center;
+
+ }
+
+ .info-container {
+     position: absolute;
+     display: ;
+     left: 862px;
+     top: 1178px;
+
+ }
+
+ .about-title {
+     font-family: sans-serif;
+     font-size: 40px;
+     font-weight: 700px;
+     align-items: center;
+     text-align: center;
+     max-width: 1072px;
+     margin-bottom: 25px;
+     left: 862px;
+     top: 1178px;
+
+ }
+
+ .about-paragraph {
+     text-align: right;
+     height: 104px;
+     width: 416px;
+     left: 862px;
+     top: 1296px;
+     font-weight: 400;
+     top: 1296px;
+
+ }
+
+ .list {
+     height: 162px;
+     width: 349px;
+     left: 862px;
+     top: 1416px;
+     border-radius: 0px;
+
+ }
+
+ /* My plane */
+ .myplanes {
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ .plane-container {
+     position: absolute;
+     width: 1141px;
+     left: 30px;
+     top: 1792px;
+     height: 299.96px;
+ }
+
+ .plane-title {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 43px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top: 130px;
+ }
+
+ .plane-containers {
+     font-family: sans-serif;
+     font-weight: 700px;
+     align-items: center;
+     text-align: center;
+     max-width: 1072px;
+     margin: 0 40px;
+     left: 1157px;
+     top: 2400px;
+     justify-content: space-between;
+ }
+
+ .icon-description {
+     display: ;
+     font-size: 25px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .icon-title {
+     font-size: 32px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ /* call now */
+ .call {
+     background-image: url(watches/watch.png), url(watches/gradient1.png);
+     background-blend-mode: difference;
+     background-repeat: no-repeat, repeat;
+     width: 1140px;
+     height: 300px;
+ }
+
+ .callnow {
+     width: 460px;
+     height: 182px;
+     padding-left: 94px;
+     padding-top: 20px;
+ }
+
+ .callnow-title {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 40px;
+
+ }
+
+ .callmain {
+     width: 1140px;
+     height: 300px;
+     padding-left: 60px;
+     padding-right: 230px;
+     border-radius: 8px;
+     margin-top: 124px;
+
+ }
+
+ /* footer styles */
+ .footer-section {
+     display: =;
+     background-color: black;
+     color: azure;
+     width: 1200px;
+     height: 377px;
+     left: 0px;
+ }
+
+ .foot-ground {
+     height: 317px;
+     width: 485px;
+     left: 230px;
+     top: 2776.2998046875px;
+     border-radius: 0px;
+     padding-left: 230px;
+     padding-bottom: 130px;
+     padding-top: 130px;
+
+
+
+ }
+
+ .foot-title {
+     font-size: 35px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+ .foot-box {
+     color: antiquewhite;
+     background-color: black;
+     margin-top: 40px;
+     display: flex;
+     align-items: center;
+     align-items: center;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ /* subscriber */
+ .subscriber {
+     padding-right: 230px;
+     padding-top: 130px;
+     padding-left: 440px;
+     padding-right: 300px;
+ }
+
+ .button-sub {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: red;
+     background-color: antiquewhite;
+     border-radius: 8px;
+     border: 0px;
+     width: 170.11px;
+     height: 64px;
+     font-weight: 900px;
+     font-size: 20px;
+     
+    }
+    .sub-heading{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+    }
+
+ .box-area {
+     width: 325px;
+     height: 64px;
+     margin-bottom: 36px;
+     margin-top: 32px;
+ }
